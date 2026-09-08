@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08140f">
+  <meta name="description" content="Uma experiência audiovisual sobre a Independência do Brasil — 7 de setembro de 1822.">
+  <title>A Independência do Brasil — 7 de Setembro de 1822</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content reveal">
+        <p class="eyebrow">UMA EXPERIÊNCIA HISTÓRICA</p>
+        <h1>A Independência<br>do Brasil</h1>
+        <div class="gold-rule"></div>
+        <p class="date">7 DE SETEMBRO DE 1822</p>
+        <p class="lead">Reviva o momento que marcou a ruptura do Brasil com Portugal.</p>
+
+        <a class="cta" href="#grito" aria-label="Ir para o vídeo do Grito do Ipiranga">
+          <span aria-hidden="true">▶</span> REVIVER O GRITO
+        </a>
+
+        <p class="hint">Experiência audiovisual • Aponte o celular e reviva a cena</p>
+      </div>
+
+      <div class="scroll-mark" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <section class="video-section section" id="grito">
+      <div class="section-heading reveal">
+        <p class="eyebrow">O MOMENTO DECISIVO</p>
+        <h2>O Grito do Ipiranga</h2>
+        <p>Uma recriação em primeira pessoa</p>
+      </div>
+
+      <div class="video-frame reveal">
+        <!--
+          VÍDEO:
+          Substitua "assets/video.mp4" pelo seu arquivo MP4.
+          Exemplo: <source src="assets/meu-video.mp4" type="video/mp4">
+        -->
+        <video id="historicalVideo" controls playsinline preload="metadata"
+               aria-label="Recriação em vídeo do Grito do Ipiranga">
+          <source src="assets/video.mp4" type="video/mp4">
+          Seu navegador não suporta vídeo HTML5.
+        </video>
+
+        <div class="video-placeholder" id="videoPlaceholder">
+          <div class="placeholder-icon">▶</div>
+          <p>Seu vídeo será exibido aqui</p>
+          <small>Coloque o arquivo MP4 em <strong>assets/video.mp4</strong></small>
+        </div>
+      </div>
+
+      <div class="context reveal">
+        <p class="date-small">7 DE SETEMBRO DE 1822</p>
+        <p>
+          Às margens do riacho do Ipiranga, em São Paulo, D. Pedro recebeu notícias
+          decisivas sobre a situação política do Brasil. O episódio tornou-se um dos
+          símbolos centrais da Independência do Brasil.
+        </p>
+      </div>
+    </section>
+
+    <section class="moment-section section" id="momento">
+      <div class="section-heading reveal">
+        <p class="eyebrow">EM POUCOS INSTANTES</p>
+        <h2>O Momento</h2>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <span class="timeline-number">01</span>
+          <p>1822</p>
+        </div>
+        <div class="timeline-line"></div>
+        <div class="timeline-item">
+          <span class="timeline-number">02</span>
+          <p>Cartas e notícias<br>chegam a D. Pedro</p>
+        </div>
+        <div class="timeline-line"></div>
+        <div class="timeline-item">
+          <span class="timeline-number">03</span>
+          <p>Margens do<br>Ipiranga</p>
+        </div>
+        <div class="timeline-line"></div>
+        <div class="timeline-item highlight">
+          <span class="timeline-number">04</span>
+          <p>Independência<br>ou Morte!</p>
+        </div>
+        <div class="timeline-line"></div>
+        <div class="timeline-item">
+          <span class="timeline-number">05</span>
+          <p>7 de setembro<br>de 1822</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-section" id="final">
+      <div class="final-overlay"></div>
+      <div class="final-content reveal">
+        <p class="eyebrow">UM MARCO DA HISTÓRIA</p>
+        <h2>Independência<br>ou Morte!</h2>
+        <div class="gold-rule"></div>
+        <p class="date">7 DE SETEMBRO DE 1822</p>
+        <p class="final-phrase">Um momento que entrou para a história do Brasil.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Projeto escolar — Independência do Brasil</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
